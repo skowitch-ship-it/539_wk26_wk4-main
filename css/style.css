@@ -1,0 +1,79 @@
+/* Basic styling for the website */
+
+body {
+    background-color: #f5f5dc;
+    font-family: Georgia, 'Times New Roman', serif;
+    color: #333333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+    color: #2c1810;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 2em;
+    margin: 15px 0;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin: 12px 0;
+}
+
+p {
+    margin: 15px 0;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+    border: 3px solid #8b4513;
+    margin: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #2c1810;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #8b4513;
+    background-color: #f5f5dc;
+    border:#cccc00
+}
+nav a:focus {color: #8b4513;
+    background-color: #f5f5dc;
+    border:#cccc00}
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #d2b48c;
+    text-align: center;
+    color: #2c1810;
+}
+nav li:last-child {
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+}
+
+.special {background-color: #000000; margin-left: 5px; padding-top: 5px; padding-left: 5px; border-left: 5px; border-bottom: 5px;}
+.highlight {background-color: #ffff99; margin-top: 10px; padding-top: 9px; padding-left: 10px; border: 2px solid #cccc00;}  
