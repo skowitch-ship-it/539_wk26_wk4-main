@@ -1,79 +1,27 @@
-/* Basic styling for the website */
-
-body {
-    background-color: #f5f5dc;
-    font-family: Georgia, 'Times New Roman', serif;
-    color: #333333;
-    line-height: 1.6;
-    padding: 20px;
+body {font-family: Arial, Verdana;
+background-color: #000000;
+color: #FFFFFF;
+margin-top: 20px;
+margin-right: 20px;
+margin-left: 20px;}
+h1 {font-size: 42px;
+text-align: center;
+padding: 15px;}
+h2 {font-size: 30px; color:#0D0D0D}
+p {font-size: 24px; padding-top:10px; padding-left: 10px}
+img {width: 250px;
+    display: block;
+margin:0 auto;
+border-style: dashed; border-color: #FFFFFF; border-width: 10px;
 }
-
-h1, h2, h3 {
-    font-weight: bold;
-    color: #2c1810;
-}
-
-h1 {
-    font-size: 2.5em;
-    margin: 20px 0;
-}
-
-h2 {
-    font-size: 2em;
-    margin: 15px 0;
-}
-
-h3 {
-    font-size: 1.5em;
-    margin: 12px 0;
-}
-
-p {
-    margin: 15px 0;
-}
-
-img {
-    height: 250px;
-    width: 250px;
-    border: 3px solid #8b4513;
-    margin: 10px;
-}
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-nav li {
-    display: inline-block;
-    margin-right: 20px;
-}
-
-nav a {
-    color: #2c1810;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-nav a:hover {
-    color: #8b4513;
-    background-color: #f5f5dc;
-    border:#cccc00
-}
-nav a:focus {color: #8b4513;
-    background-color: #f5f5dc;
-    border:#cccc00}
-footer {
-    margin-top: 40px;
-    padding: 20px;
-    background-color: #d2b48c;
-    text-align: center;
-    color: #2c1810;
-}
-nav li:last-child {
-    border: 2px solid #ffffff;
-    border-radius: 5px;
-}
-
-.special {background-color: #000000; margin-left: 5px; padding-top: 5px; padding-left: 5px; border-left: 5px; border-bottom: 5px;}
-.highlight {background-color: #ffff99; margin-top: 10px; padding-top: 9px; padding-left: 10px; border: 2px solid #cccc00;}  
+div {min-height: 125px; height: auto; padding: 20px; border-style: solid; border-color: #FFFFFF; border-width: 3px}
+.introduction{border-radius:15px; margin-top: 15px; line-height: 2}
+.red {background-color: #ff0000; text-align: right; border-style: solid; margin-left: 50px; border-style: solid; border-width: 0px 0px 2px 5px; border-color: #FFFFFF;}
+.blue {background-color: #0000ff; text-align: left; margin-right: 50px; border-width: 0px 0px 2px 5px;}
+.blue h2 {color: #c4c4c4;}
+.blue p {color: #c4c4c4}
+.yellow {background-color: #ffff00; text-align: right; margin-left: 50px; border-width: 0px 0px 2px 5px;}
+.yellow p {color: #707070}
+.green {background-color: #008500; text-align: left; margin-right: 50px; border-width: 5px 2px 0px 0px;}
+footer {background: linear-gradient(90deg#000000, #0000ff 25% #0066ff 70%, #000000); border: 5px solid #FFFFFF;}
+footer p {font-size: 20px; text-align: right; padding-bottom: 15px; padding-top: 15px; padding-right: 15px;}
